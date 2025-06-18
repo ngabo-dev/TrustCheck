@@ -65,11 +65,11 @@ A video presentation accompanies this repository, where the table above is discu
 
 1. Clone the repository:
 
-git clone [trustcheck](https://github.com/ngabo-dev/TrustCheck.git)
+   git clone [trustcheck](https://github.com/ngabo-dev/TrustCheck.git)
 
 2. Install dependencies (example):
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 3. Run notebooks or scripts to reproduce training and evaluation.
 4. Load saved models from the `saved_models` directory for inference.
