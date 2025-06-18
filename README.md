@@ -8,7 +8,7 @@ This project addresses the problem of detecting fake news articles using machine
 
 ## Dataset
 
-The dataset contains 6,000 samples split into training, validation, and test sets, with balanced classes of real and fake news. Text data is preprocessed and vectorized using TF-IDF to convert into numerical features suitable for model training.
+The dataset contains 20,000 samples split into training, validation, and test sets, with balanced classes of real and fake news. Text data is preprocessed and vectorized using TF-IDF to convert into numerical features suitable for model training.
 
 ---
 
