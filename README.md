@@ -16,10 +16,10 @@ The dataset contains 20,000 samples split into training, validation, and test se
 
 | Model Instance | Optimizer / Algorithm | Regularization | Early Stopping | Layers | Learning Rate | Accuracy | F1 Score | Recall | Precision |
 |----------------|----------------------|----------------|----------------|--------|---------------|----------|----------|--------|-----------|
-| Instance 1     | Adam (Neural Net)     | None           | No             | 2      | 0.001         | 0.6463   | 0.6289   | 0.6030 | 0.6572    |
-| Instance 2     | RMSprop (Neural Net)  | L2             | Yes            | 3      | 0.001         | 0.6840   | 0.6643   | 0.6291 | 0.7037    |
-| Instance 3     | Adam (Neural Net)     | L1             | Yes            | 2      | 0.0005        | 0.6900   | 0.6877   | 0.6868 | 0.6886    |
-| Instance 4     | RMSprop (Neural Net)  | L1_L2          | Yes            | 3      | 0.0007        | 0.6787   | 0.6550   | 0.6137 | 0.7022    |
+| Instance 1     | Adam (Neural Net)     | None           | No             | 5      | 0.001         | 0.6463   | 0.6289   | 0.6030 | 0.6572    |
+| Instance 2     | RMSprop (Neural Net)  | L2             | Yes            | 4      | 0.001         | 0.6840   | 0.6643   | 0.6291 | 0.7037    |
+| Instance 3     | Adam (Neural Net)     | L1             | Yes            | 3      | 0.0005        | 0.6900   | 0.6877   | 0.6868 | 0.6886    |
+| Instance 4     | RMSprop (Neural Net)  | L1_L2          | Yes            | 5      | 0.0007        | 0.6787   | 0.6550   | 0.6137 | 0.7022    |
 | Classical ML   | XGBoost (Tuned)      | Tuned Params   | N/A            | N/A    | N/A           | *See below* | *See below* | *See below* | *See below* |
 
 *Note: Classical ML model (XGBoost) was tuned via grid search for hyperparameters such as max_depth, learning_rate, n_estimators, subsample, and colsample_bytree.*
